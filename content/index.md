@@ -1,5 +1,5 @@
 ---
-title: Welcome to GoSpoof Documentation
+title: Welcome to the GoSpoof Documentation
 ---
 GoSpoof is a powerful cyber deception tool that brings defensive tooling back into your security toolkit. This tool was directly inspired by portspoof and rebuilt in Go with additional features, making it more efficient and easier to use.
 
