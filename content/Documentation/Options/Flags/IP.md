@@ -1,5 +1,6 @@
-# IP Option (-i)
-
+---
+title: IP Option (-i)
+---
 The `-i` option binds GoSpoof to a specific IP address instead of all available interfaces.
 
 ## Usage

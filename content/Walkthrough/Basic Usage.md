@@ -1,5 +1,6 @@
-# Basic Usage
-
+---
+title: Basic Usage
+---
 This guide covers the basic usage of GoSpoof, including common commands and examples.
 
 ## Starting GoSpoof

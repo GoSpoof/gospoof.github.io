@@ -1,5 +1,6 @@
-# Rubber Glue Option (-rg)
-
+---
+title: Rubber Glue Option (-rg)
+---
 The `-rg` option enables rubber glue mode to redirect attacks back to the intruder.
 
 ## Usage

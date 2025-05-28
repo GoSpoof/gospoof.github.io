@@ -1,5 +1,6 @@
-# Troubleshooting Guide
-
+---
+title: Troubleshooting Guide
+---
 This guide covers common issues and their solutions when using GoSpoof.
 
 ## Common Issues

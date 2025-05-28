@@ -1,5 +1,6 @@
-# Configuration Guide
-
+---
+title: Configuration Guide
+---
 This guide covers all configuration options available in GoSpoof, from basic setup to advanced customization.
 
 ## Basic Configuration

@@ -1,5 +1,6 @@
-# iptables Setup Option (-sT)
-
+---
+title: iptables Setup Option (-sT)
+---
 The `-sT` option configures iptables to redirect traffic to a specified port.
 
 ## Usage

@@ -1,5 +1,6 @@
-# Quick Start Guide
-
+---
+title: Quick Start Guide
+---
 This guide will help you get up and running with GoSpoof quickly.
 
 ## Basic Setup

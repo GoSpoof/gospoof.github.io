@@ -1,5 +1,6 @@
-# Port Range Option (-sP)
-
+---
+title: Port Range Option (-sP)
+---
 The `-sP` option defines which ports GoSpoof should respond to, supporting ranges, lists, or single ports.
 
 ## Usage

@@ -1,5 +1,6 @@
-# Advanced Usage
-
+---
+title: Advanced Usage
+---
 This guide focuses on advanced usage scenarios and combinations of GoSpoof features. For basic command usage, see [[Documentation/Options/Options overview|Command Line Options]].
 
 ## Advanced Scenarios

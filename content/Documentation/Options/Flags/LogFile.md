@@ -1,5 +1,6 @@
-# Log File Option (-l)
-
+---
+title: Log File Option (-l)
+---
 The `-l` option specifies a file to log port scanning alerts and activities.
 
 ## Usage

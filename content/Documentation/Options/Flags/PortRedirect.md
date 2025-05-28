@@ -1,5 +1,6 @@
-# Port Range Redirect Option (-r)
-
+---
+title: Port Range Redirect Option (-r)
+---
 The `-r` option sets the range of ports that iptables should redirect from when using `-sT`.
 
 ## Usage

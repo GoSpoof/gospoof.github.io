@@ -1,5 +1,6 @@
-# GoSpoof Overview
-
+---
+title: GoSpoof Overview
+---
 GoSpoof is a cyber deception tool designed to protect your systems from port scanning and reconnaissance activities. It works by creating deceptive responses to port scans, making it difficult for attackers to accurately map your network.
 
 ## What is GoSpoof?

@@ -1,5 +1,6 @@
-# Signatures Option (-s)
-
+---
+title: Signatures Option (-s)
+---
 The `-s` option allows loading custom service signature patterns from a file.
 
 ## Usage

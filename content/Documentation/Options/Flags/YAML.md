@@ -1,5 +1,6 @@
-# YAML Config Option (-Y)
-
+---
+title: YAML Config Option (-Y)
+---
 The `-Y` option loads configuration settings from a YAML file for complex setups.
 
 ## Usage

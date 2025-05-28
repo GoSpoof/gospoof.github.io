@@ -1,5 +1,6 @@
-# Command Line Options
-
+---
+title: Command Line Options
+---
 This guide provides a comprehensive list of all command line options available in GoSpoof.
 
 ## Basic Options

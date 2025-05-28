@@ -1,5 +1,6 @@
-# Wait Option (-w)
-
+---
+title: Wait Option (-w)
+---
 The `-w` option adds a delay between sending signatures to slow down scanning tools.
 
 ## Usage

@@ -1,5 +1,6 @@
-# Installation Guide
-
+---
+title: Installation Guide
+---
 This guide will walk you through the process of installing and setting up GoSpoof on your system.
 
 ## Prerequisites

@@ -1,5 +1,6 @@
-# Verbose Option (-v)
-
+---
+title: Verbose Option (-v)
+---
 The `-v` option enables detailed output for debugging and monitoring purposes.
 
 ## Usage
