@@ -122,27 +122,27 @@ This guide provides a comprehensive list of all command line options available i
 For detailed information about each flag, see the individual documentation pages:
 
 ### Basic Options
-- [[Documentation/Options/Flags/Port|Port (`-p`)]] - Bind to specific port
-- [[Documentation/Options/Flags/IP|IP (`-i`)]] - Bind to specific IP address  
-- [[Documentation/Options/Flags/Verbose|Verbose (`-v`)]] - Enable verbose mode
-- [[Documentation/Options/Flags/Daemon|Daemon (`-D`)]] - Run as daemon process
+- [[Documentation/Options/Flags/Port|Port (-p)]] - Bind to specific port
+- [[Documentation/Options/Flags/IP|IP (-i)]] - Bind to specific IP address  
+- [[Documentation/Options/Flags/Verbose|Verbose (-v)]] - Enable verbose mode
+- [[Documentation/Options/Flags/Daemon|Daemon (-D)]] - Run as daemon process
 
 ### Port Configuration
-- [[Documentation/Options/Flags/PortRange|Port Range (`-sP`)]] - Specify port ranges or lists
-- [[Documentation/Options/Flags/iptablesSetup|iptables Setup (`-sT`)]] - Setup iptables redirection
-- [[Documentation/Options/Flags/PortRedirect|Port Redirect (`-r`)]] - Port range for iptables redirect
-- [[Documentation/Options/Flags/iptablesReset|iptables Reset (`-fT`)]] - Reset iptables rules
+- [[Documentation/Options/Flags/PortRange|Port Range (-sP)]] - Specify port ranges or lists
+- [[Documentation/Options/Flags/iptablesSetup|iptables Setup (-sT)]] - Setup iptables redirection
+- [[Documentation/Options/Flags/PortRedirect|Port Redirect (-r)]] - Port range for iptables redirect
+- [[Documentation/Options/Flags/iptablesReset|iptables Reset (-fT)]] - Reset iptables rules
 
 ### Advanced Features  
-- [[Documentation/Options/Flags/Honeypot|Honeypot (`-honey`)]] - Enable honeypot mode
-- [[Documentation/Options/Flags/Throttle|Throttle (`-t`)]] - Control scan throttling
-- [[Documentation/Options/Flags/Wait|Wait (`-w`)]] - Delay between signatures
-- [[Documentation/Options/Flags/RubberGlue|Rubber Glue (`-rg`)]] - Tunnel attacks back
+- [[Documentation/Options/Flags/Honeypot|Honeypot (-honey)]] - Enable honeypot mode
+- [[Documentation/Options/Flags/Throttle|Throttle (-t)]] - Control scan throttling
+- [[Documentation/Options/Flags/Wait|Wait (-w)]] - Delay between signatures
+- [[Documentation/Options/Flags/RubberGlue|Rubber Glue (-rg)]] - Tunnel attacks back
 
 ### Configuration and Logging
-- [[Documentation/Options/Flags/YAML|YAML (`-Y`)]] - Load YAML configuration
-- [[Documentation/Options/Flags/LogFile|Log File (`-l`)]] - Log scanning alerts
-- [[Documentation/Options/Flags/Signatures|Signatures (`-s`)]] - Custom service signatures
+- [[Documentation/Options/Flags/YAML|YAML (-Y)]] - Load YAML configuration
+- [[Documentation/Options/Flags/LogFile|Log File (-l)]] - Log scanning alerts
+- [[Documentation/Options/Flags/Signatures|Signatures (-s)]] - Custom service signatures
 
 ## Next Steps
 
