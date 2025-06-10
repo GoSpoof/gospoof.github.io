@@ -33,6 +33,8 @@ Our research has shown that cyber deception is extremely beneficial, increasing 
 - Comprehensive logging and monitoring
 - Flexible configuration options
 - Honeypot mode for threat tracking
+- Persistent boot configuration for unattended operation
+- Port exclusion for running legitimate services
 - Versatile for various security scenarios
 
 ## Getting Started

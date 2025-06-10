@@ -15,9 +15,9 @@ sudo iptables -t nat -A PREROUTING -p tcp -m tcp --dport 1:65535 -j REDIRECT --t
 ./goSpoof
 ```
 
-3. Test your setup with nmap:
+3. Test your setup with nmap (must be done from a separate computer or vm):
 ```bash
-nmap localhost
+nmap IP
 ```
 
 ## What to Expect
