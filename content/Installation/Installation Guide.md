@@ -61,9 +61,9 @@ To verify your installation:
 ./goSpoof
 ```
 
-2. Test with a port scan:
+2. Test with a port scan (must be done from a separate machine):
 ```bash
-nmap localhost
+nmap IP
 ```
 
 ## Common Issues

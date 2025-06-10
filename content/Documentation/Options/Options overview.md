@@ -5,12 +5,11 @@ This guide provides a comprehensive list of all command line options available i
 
 ## Basic Options
 
-| Option | Description | Default | Example |
-|--------|-------------|---------|---------|
-| `-p` | Bind to a particular PORT number | "4444" | `-p 4444` |
-| `-i` | Bind to a particular IP address | System IP | `-i 192.168.1.100` |
-| `-v` | Enable verbose mode | None | `-v` |
-| `-D` | Run as daemon process | None | `-D` |
+| Option | Description                      | Default   | Example            |
+| ------ | -------------------------------- | --------- | ------------------ |
+| `-p`   | Bind to a particular PORT number | "4444"    | `-p 4444`          |
+| `-i`   | Bind to a particular IP address  | System IP | `-i 192.168.1.100` |
+| `-D`   | Run as daemon process            | None      | `-D`               |
 
 ## Port Configuration
 
@@ -29,6 +28,14 @@ This guide provides a comprehensive list of all command line options available i
 | `-t` | Throttle time for scan (1-5, where 1=5min, 5=80min) | None | `-t 3` |
 | `-w` | Seconds to wait between sending signatures | None | `-w 5` |
 | `-rg` | Rubber glue mode (tunnels attacks back at intruder) | Off | `-rg` |
+| `-e` | Exclude specific ports from spoofing | None | `-e 22,80,443` |
+
+## Boot Configuration
+
+| Option | Description | Default | Example |
+|--------|-------------|---------|---------|
+| `--boot` | Save configuration and start on boot | None | `--boot` |
+| `-rm` | Remove boot configuration and service | None | `-rm` |
 
 ## Configuration and Logging
 
@@ -51,6 +58,11 @@ This guide provides a comprehensive list of all command line options available i
 - `-t`: Controls scan throttling, with levels 1-5 providing increasing delays (1=5min, 5=80min).
 - `-w`: Adds a delay between sending signatures, useful for slowing down scanning tools.
 - `-rg`: Enables rubber glue mode, which tunnels attacks back at the intruder.
+- `-e`: Excludes specified ports from spoofing, allowing legitimate services to run normally.
+
+### Boot Configuration
+- `--boot`: Saves the current configuration and sets up GoSpoof to start automatically on system boot.
+- `-rm`: Removes all saved boot configurations and provides a complete fresh start.
 
 ### Configuration
 - `-Y`: Loads configuration from a YAML file, allowing for more complex setups.
@@ -111,10 +123,19 @@ This guide provides a comprehensive list of all command line options available i
 ./goSpoof -rg
 
 # Verbose debugging
-./goSpoof -v -p 4444
+./goSpoof -p 4444
 
 # Custom signatures
 ./goSpoof -s signatures.txt -p 4444
+
+# Exclude critical ports
+./goSpoof -e 22,80,443 -p 4444
+
+# Setup persistent boot configuration
+./goSpoof -p 4444 -sT 4444 -honey Y --boot
+
+# Remove boot configuration
+./goSpoof -rm
 ```
 
 ## Individual Flag Documentation
@@ -124,7 +145,6 @@ For detailed information about each flag, see the individual documentation pages
 ### Basic Options
 - [[Documentation/Options/Flags/Port|Port (-p)]] - Bind to specific port
 - [[Documentation/Options/Flags/IP|IP (-i)]] - Bind to specific IP address  
-- [[Documentation/Options/Flags/Verbose|Verbose (-v)]] - Enable verbose mode
 - [[Documentation/Options/Flags/Daemon|Daemon (-D)]] - Run as daemon process
 
 ### Port Configuration
@@ -143,6 +163,11 @@ For detailed information about each flag, see the individual documentation pages
 - [[Documentation/Options/Flags/YAML|YAML (-Y)]] - Load YAML configuration
 - [[Documentation/Options/Flags/LogFile|Log File (-l)]] - Log scanning alerts
 - [[Documentation/Options/Flags/Signatures|Signatures (-s)]] - Custom service signatures
+- [[Documentation/Options/Flags/Exclude|Exclude Ports (-e)]] - Exclude specific ports from spoofing
+
+### Boot Configuration
+- [[Documentation/Options/Flags/Boot|Start on Boot (--boot)]] - Save configuration and start on boot
+- [[Documentation/Options/Flags/Remove|Remove Boot Configuration (-rm)]] - Remove boot configuration
 
 ## Next Steps
 

@@ -30,7 +30,7 @@ GoSpoof offers many command line options for different use cases. Here are the m
 - **Setup iptables** (`-sT`): Configure traffic redirection 
 - **Port configuration** (`-sP`): Define port ranges and specific ports
 - **Configuration files** (`-Y`): Load YAML configuration files
-- **Logging** (`-l`, `-v`): Enable detailed logging and verbose output
+- **Logging** (`-l`): Enable detailed logging
 - **Background operation** (`-D`): Run as daemon process
 - **Security features** (`-honey`): Enable honeypot mode for tracking
 - **Performance tuning** (`-w`, `-t`): Add delays and throttling
