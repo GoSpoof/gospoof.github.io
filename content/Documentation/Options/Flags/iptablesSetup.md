@@ -30,4 +30,4 @@ The `-sT` option configures iptables to redirect traffic to a specified port.
 ./goSpoof -sT 4444 -p 4444 -l /var/log/gospoof.log
 ```
 
-[Back to Options Overview](../Options%20overview.md) 
+[[Documentation/Options/Options overview|Back to Options Overview]] 

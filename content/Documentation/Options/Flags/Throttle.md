@@ -33,4 +33,4 @@ The `-t` option controls scan throttling with increasing delays based on level (
 ./goSpoof -t 5 -w 10 -honey Y
 ```
 
-[Back to Options Overview](../Options%20overview.md) 
+[[Documentation/Options/Options overview|Back to Options Overview]] 

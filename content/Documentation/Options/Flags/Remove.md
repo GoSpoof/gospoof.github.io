@@ -31,4 +31,4 @@ The `-rm` option removes all saved boot configurations and provides a complete f
 ./goSpoof -rm
 ```
 
-[Back to Options Overview](../Options%20overview.md) 
+[[Documentation/Options/Options overview|Back to Options Overview]] 

@@ -31,4 +31,4 @@ The `-rg` option enables rubber glue mode to redirect attacks back to the intrud
 # ./goSpoof -rg -honey Y
 ```
 
-[Back to Options Overview](../Options%20overview.md) 
+[[Documentation/Options/Options overview|Back to Options Overview]] 
