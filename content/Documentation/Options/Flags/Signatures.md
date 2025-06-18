@@ -1,12 +1,12 @@
 ---
-title: Signatures Option (-s)
+title: Signatures (-s)
 ---
 The `-s` option allows loading custom service signature patterns from a file.
 
 ## Usage
 
 ```bash
-./goSpoof -s signatures.txt
+./goSpoof -s path/to/signatures.txt
 ```
 
 ## Description
@@ -21,13 +21,13 @@ The `-s` option allows loading custom service signature patterns from a file.
 
 ```bash
 # Basic signature file
-./goSpoof -s signatures.txt
+./goSpoof -s path/to/signatures.txt
 
 # With port binding
-./goSpoof -s signatures.txt -p 4444
+./goSpoof -s path/to/signatures.txt -p 4444
 
 # Full configuration
-./goSpoof -s signatures.txt -Y config.yaml -l /var/log/gospoof.log
+./goSpoof -s path/to/signatures.txt -Y config.yaml -l /var/log/gospoof.log
 ```
 
 [Back to Options Overview](../Options%20overview.md) 

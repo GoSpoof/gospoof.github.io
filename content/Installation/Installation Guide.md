@@ -48,6 +48,24 @@ sudo iptables -t nat -A PREROUTING -p tcp -m tcp --dport 1:65535 -j REDIRECT --t
 cp ./goSpoof /usr/local/bin/
 ```
 
+### 5. WebUI Setup (Optional)
+
+If you plan to use the WebUI interface, you'll need to set up the web server components:
+
+1. Navigate back to the root directory:
+```bash
+cd ..
+```
+
+2. Run the WebUI startup script:
+```bash
+go run startup.go
+```
+
+This step is only required if you want to use the `--WebUI` flag to launch the GoSpoof Command Center. The WebUI provides a graphical interface for monitoring and managing GoSpoof.
+
+For more information about using the WebUI, see the [[Documentation/Options/Flags/WebUI|WebUI documentation]].
+
 ## Configuration
 
 After installation, you'll need to configure GoSpoof. See the [[Documentation/Configuration|Configuration Guide]] for detailed instructions.
@@ -63,7 +81,7 @@ To verify your installation:
 
 2. Test with a port scan (must be done from a separate machine):
 ```bash
-nmap IP
+nmap -sV IP
 ```
 
 ## Common Issues

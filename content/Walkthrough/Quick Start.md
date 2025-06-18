@@ -17,7 +17,7 @@ sudo iptables -t nat -A PREROUTING -p tcp -m tcp --dport 1:65535 -j REDIRECT --t
 
 3. Test your setup with nmap (must be done from a separate computer or vm):
 ```bash
-nmap IP
+nmap -sV IP
 ```
 
 ## What to Expect

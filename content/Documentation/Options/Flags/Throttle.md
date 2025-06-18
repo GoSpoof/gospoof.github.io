@@ -1,5 +1,5 @@
 ---
-title: Throttle Option (-t)
+title: Throttle (-t)
 ---
 The `-t` option controls scan throttling with increasing delays based on level (1-5).
 

@@ -43,7 +43,8 @@ This guide provides a comprehensive list of all command line options available i
 |--------|-------------|---------|---------|
 | `-Y` | Load configuration from YAML file | None | `-Y config.yaml` |
 | `-l` | Log port scanning alerts to a file | None | `-l /path/to/log.log` |
-| `-s` | Go-spoof service signature regex file | None | `-s signatures.txt` |
+| `-s` | Go-spoof service signature regex file | None | `-s path/to/signatures.txt` |
+| `--WebUI` | Launch the GoSpoof Command Center | None | `--WebUI` |
 
 ## Option Details
 
@@ -68,6 +69,7 @@ This guide provides a comprehensive list of all command line options available i
 - `-Y`: Loads configuration from a YAML file, allowing for more complex setups.
 - `-l`: Specifies a file to log port scanning alerts.
 - `-s`: Allows loading custom service signature patterns from a file.
+- `--WebUI`: Launches the GoSpoof Command Center web interface for visual management and monitoring.
 
 ## Common Usage Examples
 
@@ -126,7 +128,7 @@ This guide provides a comprehensive list of all command line options available i
 ./goSpoof -p 4444
 
 # Custom signatures
-./goSpoof -s signatures.txt -p 4444
+./goSpoof -s path/to/signatures.txt -p 4444
 
 # Exclude critical ports
 ./goSpoof -e 22,80,443 -p 4444
@@ -164,6 +166,7 @@ For detailed information about each flag, see the individual documentation pages
 - [[Documentation/Options/Flags/LogFile|Log File (-l)]] - Log scanning alerts
 - [[Documentation/Options/Flags/Signatures|Signatures (-s)]] - Custom service signatures
 - [[Documentation/Options/Flags/Exclude|Exclude Ports (-e)]] - Exclude specific ports from spoofing
+- [[Documentation/Options/Flags/WebUI|WebUI (--WebUI)]] - Launch the Command Center interface
 
 ### Boot Configuration
 - [[Documentation/Options/Flags/Boot|Start on Boot (--boot)]] - Save configuration and start on boot

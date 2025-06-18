@@ -1,5 +1,5 @@
 ---
-title: Daemon Option (-D)
+title: Daemon (-D)
 ---
 The `-D` option runs GoSpoof as a background process.
 
