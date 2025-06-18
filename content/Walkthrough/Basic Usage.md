@@ -23,6 +23,12 @@ Bind GoSpoof to a specific IP address.
 ./goSpoof -i 192.168.1.100
 ```
 
+### Launch with WebUI
+Start GoSpoof with the Command Center interface for visual monitoring.
+```bash
+./goSpoof --WebUI
+```
+
 ## Common Commands
 
 GoSpoof offers many command line options for different use cases. Here are the most commonly used commands:
@@ -35,6 +41,7 @@ GoSpoof offers many command line options for different use cases. Here are the m
 - **Security features** (`-honey`): Enable honeypot mode for tracking
 - **Performance tuning** (`-w`, `-t`): Add delays and throttling
 - **Special modes** (`-rg`): Use rubber glue mode for attack redirection
+- **Web Interface** (`--WebUI`): Launch the Command Center for visual management
 
 For complete command examples and usage patterns, see the [[Documentation/Options/Options overview#Common Usage Examples|Command Line Options Examples]] section.
 
@@ -56,6 +63,29 @@ Use throttling and wait delays to significantly slow down scanning tools and was
 Record port scanning alerts to a file.
 ```bash
 ./goSpoof -l /path/to/logfile.log
+```
+
+## WebUI Usage
+
+The WebUI provides a graphical interface for monitoring GoSpoof activities in real-time.
+
+### Basic WebUI Monitoring
+Launch GoSpoof with WebUI for visual monitoring:
+```bash
+./goSpoof --WebUI
+```
+Then open your browser and navigate to `http://localhost:3000`
+
+### WebUI with Logging
+Combine WebUI with file logging for comprehensive monitoring:
+```bash
+./goSpoof --WebUI -l /var/log/gospoof.log
+```
+
+### WebUI in Daemon Mode
+Run GoSpoof with WebUI in the background:
+```bash
+./goSpoof --WebUI -D
 ```
 
 ## Next Steps

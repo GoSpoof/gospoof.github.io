@@ -1,5 +1,5 @@
 ---
-title: Honeypot Mode Option (-honey)
+title: Honeypot Mode (-honey)
 ---
 The `-honey` option enables honeypot mode to track and log potential attackers.
 

@@ -1,5 +1,5 @@
 ---
-title: iptables Reset Option (-fT)
+title: iptables Reset (-fT)
 ---
 The `-fT` option removes all GoSpoof-related iptables rules from the system.
 

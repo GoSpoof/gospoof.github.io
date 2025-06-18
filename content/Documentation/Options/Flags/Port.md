@@ -1,5 +1,5 @@
 ---
-title: Port Option (-p)
+title: Port (-p)
 ---
 The `-p` option specifies the port that GoSpoof will listen on for all redirected traffic.
 
