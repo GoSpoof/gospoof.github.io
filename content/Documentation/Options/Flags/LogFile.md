@@ -30,4 +30,4 @@ The `-l` option specifies a file to log port scanning alerts and activities.
 ./goSpoof -honey -l /var/log/gospoof.log
 ```
 
-[Back to Options Overview](../Options%20overview.md) 
+[[Documentation/Options/Options overview|Back to Options Overview]] 

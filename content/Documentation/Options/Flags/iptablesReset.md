@@ -32,4 +32,4 @@ The `-fT` option removes all GoSpoof-related iptables rules from the system.
 ./goSpoof -sT 4444 -p 4444 -r "1:1000"
 ```
 
-[Back to Options Overview](../Options%20overview.md) 
+[[Documentation/Options/Options overview|Back to Options Overview]] 

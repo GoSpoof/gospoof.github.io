@@ -28,4 +28,4 @@ The `-p` option specifies the port that GoSpoof will listen on for all redirecte
 ./goSpoof -p 4444 -sT 4444 -r "1:1000"
 ```
 
-[Back to Options Overview](../Options%20overview.md) 
+[[Documentation/Options/Options overview|Back to Options Overview]] 

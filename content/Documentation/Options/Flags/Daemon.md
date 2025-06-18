@@ -28,4 +28,4 @@ The `-D` option runs GoSpoof as a background process.
 ./goSpoof -D -Y config.yaml -l /var/log/gospoof.log
 ```
 
-[Back to Options Overview](../Options%20overview.md)
+[[Documentation/Options/Options overview|Back to Options Overview]]

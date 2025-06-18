@@ -1,5 +1,5 @@
 ---
-title: Command Line Options
+title: Options overview
 ---
 This guide provides a comprehensive list of all command line options available in GoSpoof.
 

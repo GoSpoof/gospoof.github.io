@@ -30,4 +30,4 @@ The `--boot` option saves the current configuration and sets up GoSpoof to start
 ./goSpoof -p 4444 -sT 4444 -t 3 --boot
 ```
 
-[Back to Options Overview](../Options%20overview.md) 
+[[Documentation/Options/Options overview|Back to Options Overview]] 

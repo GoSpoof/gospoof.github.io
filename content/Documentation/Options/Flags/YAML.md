@@ -1,5 +1,5 @@
 ---
-title: YAML Config Option (-Y)
+title: YAML Config (-Y)
 ---
 The `-Y` option loads configuration settings from a YAML file for complex setups.
 
@@ -29,4 +29,4 @@ The `-Y` option loads configuration settings from a YAML file for complex setups
 ./goSpoof -Y config.yaml -D -l /var/log/gospoof.log
 ```
 
-[Back to Options Overview](../Options%20overview.md) 
+[[Documentation/Options/Options overview|Back to Options Overview]] 
